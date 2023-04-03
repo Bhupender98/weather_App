@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.spinner{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container{
+  height: 100vh;
+  padding: 2rem;
+  color: #fff;
+  background: url('./Img/weather.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.search-bar{
+  display: flex;
+}
+.search-bar>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.upcoming-days{
+  display: flex;
+  justify-content: space-between;
+}
+.upcoming-days > div{
+  text-align: center;
+  border: 1px solid lightgray;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
